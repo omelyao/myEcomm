@@ -23,7 +23,6 @@ const NavBar = observer(() => {
                   <Button variant={"outline-light"} onClick={() => user.setIsAuth(true)}>Авторизация</Button>
                </Nav>
             }
-
          </Container>
       </Navbar>
    );
